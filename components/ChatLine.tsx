@@ -49,7 +49,7 @@ export function ChatLine({ who = "bot", message }: Message) {
   return (
     <div
       className={
-        who != "bot" ? "float-right clear-both" : "float-left clear-both"
+        who != "bot" ? "float-right clear-both" : "float-left clear-both "
       }
     >
       <BalancerWrapper>
